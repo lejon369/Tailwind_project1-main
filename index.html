@@ -1,45 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>learnng tailwin css</title>
 
     <!-- css file -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-[#301E67] text-cyan-300">
-    <nav  class="text-cyan-300 bg-[#301E67] shadow-2xl">
-        <div class="container mx-auto">
-            <div class="sm:flex justify-between py-5 items-center">
-                <div class="logo text-center mb-3 sm:mb-0">
-                    <a class="text-xl sm:text-3xl" href="#"> <span class="text-orange-600 text-bold">Wa</span>lk<span class="text-orange-600">er</span></a>
-                </div>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-                <ul class="sm:flex text-xl text-center border-t sm:border-none">
-                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-orange-600 hover:text-orange-700">Home</a></li>
-                    <li><a href="#" class="p-3 hover:text-orange-700">Products</a></li>
-                    <li><a href="#" class="p-3 hover:text-orange-700">Blog</a></li>
-                    <li><a href="#" class="p-3 hover:text-orange-700">Portfolio</a></li>
-                    <li><a href="#" class="p-3 hover:text-orange-700">Contact</a></li>
-                </ul>
-            </div>
+  <body class="bg-[#301E67] text-cyan-300">
+    <nav class="text-cyan-300 bg-[#301E67] shadow-2xl sticky top-0 z-10">
+      <div class="container mx-auto">
+        <div class="sm:flex justify-between py-5 items-center">
+          <div class="logo text-center mb-3 sm:mb-0">
+            <a class="text-xl sm:text-3xl" href="#">
+              <span class="text-orange-600 text-bold">Wa</span>lk<span
+                class="text-orange-600"
+                >er</span
+              ></a
+            >
+          </div>
+
+          <ul class="sm:flex text-xl text-center border-t sm:border-none">
+            <li class="mt-3 sm:mt-0">
+              <a href="#" class="p-3 text-orange-600 hover:text-orange-700"
+                >Home</a
+              >
+            </li>
+            <li><a href="#" class="p-3 hover:text-orange-700">Products</a></li>
+            <li><a href="#" class="p-3 hover:text-orange-700">Blog</a></li>
+            <li><a href="#" class="p-3 hover:text-orange-700">Portfolio</a></li>
+            <li><a href="#" class="p-3 hover:text-orange-700">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <header>
-        <div class="container mx-auto sm:flex border border-t-0 border-indigo-700 justify-around items-center text-center h-[80vh] px-10 pt-10">
-            <div>
-                <h1 class="text-2xl sm:text-5xl md-5 sm:mb-16">Smart Coders: Learining <br> Programing</h1>
-                <button class="bg-blue-600 hover:bg-blue-800 px-7 py-4 rounded-full text-xl shadow-xl">Join : Walkers <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block text-red-500 ml-5 animate-pulse">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
-                  </button>
-            </div>
-
-            <div>
-                <img class="animate-pulse" src="img/had.png" alt="tecnoligy">
-            </div>
+      <div
+        class="container mx-auto sm:flex border border-t-0 border-indigo-700 justify-around items-center text-center h-[80vh] px-10 pt-10"
+      >
+        <div>
+          <h1 class="text-2xl sm:text-5xl md-5 sm:mb-16">
+            Smart Coders: Learining Programing
+          </h1>
+          <button
+            class="bg-blue-600 hover:bg-blue-800 px-7 py-4 rounded-full text-xl shadow-xl"
+          >
+            Join : Walkers
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 inline-block text-red-500 ml-5 animate-pulse"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+            </svg>
+          </button>
         </div>
+
+        <div>
+          <img class="animate-pulse" src="img/had.png" alt="tecnoligy" />
+        </div>
+      </div>
     </header>
-</body>
+
+    <main class="container mx-auto">
+      <section class="mt-24 my-24">
+        <h2 class="text-3xl text-center mb-12">OUR SERVICES</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+             <img
+              class="w-1/2 mx-auto"
+              src="img/s1.png"
+              alt="fontend_developer"
+                 />
+                 <h4 class="text-lg underline my-5 underline-offset-8">
+              Font End Developer
+                 </h4>
+             <p>
+              A front-end developer creates websites and applications using web
+              languages such as HTML, CSS, and JavaScript that allow users to
+              access and interact with the site or app. When you visit a
+              website, the design elements you see were created by a front-end
+              developer.
+            </p>
+          </div>
+          <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+            <img
+             class="w-1/2 mx-auto"
+             src="img/s3.png"
+             alt="fontend_developer"
+                />
+                <h4 class="text-lg underline my-5 underline-offset-8">
+             Back End Developer
+                </h4>
+            <p>
+                Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see
+           </p>
+         </div>
+         <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+            <img
+             class="w-1/2 mx-auto"
+             src="img/s4.png"
+             alt="fontend_developer"
+                />
+                <h4 class="text-lg underline my-5 underline-offset-8">
+             DEVELOPS
+                </h4>
+            <p>
+                A dev or developer is an individual who is responsible for creating or working on the development of a product or service. Most developers utilize one or more programming languages to develop their product or service. They may work alone or on a team, and may develop part of or all a product or service
+           </p>
+         </div>
+         <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+            <img
+             class="w-1/2 mx-auto"
+             src="img/s5.png"
+             alt="fontend_developer"
+                />
+                <h4 class="text-lg underline my-5 underline-offset-8">
+                     Full stack Developer
+                </h4>
+            <p>
+                A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+           </p>
+         </div>
+         <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+            <img
+             class="w-1/2 mx-auto"
+             src="img/s7.png"
+             alt="fontend_developer"
+                />
+                <h4 class="text-lg underline my-5 underline-offset-8">
+                    JavaScript
+                </h4>
+            <p>
+                JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, ...
+           </p>
+         </div>
+         <div class="bg-orange-600 p-8 rounded-lg text-center border-4 border-orange-600 hover:border-cyan-300 cursor-pointer">
+            <img
+             class="w-1/2 mx-auto"
+             src="img/s6.png"
+             alt="fontend_developer"
+                />
+                <h4 class="text-lg underline my-5 underline-offset-8">
+                    Data science
+                </h4>
+            <p>
+                Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. These insights can be used to guide decision making and strategic planning.
+           </p>
+         </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
